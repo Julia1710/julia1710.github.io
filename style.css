@@ -28,7 +28,8 @@ a { color: inherit; }
   backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--line);
 }
-.brand { font: 500 1.35rem var(--serif); text-decoration: none; letter-spacing: .01em; }
+.brand { display: inline-flex; align-items: center; gap: 12px; font: 500 1.35rem var(--serif); text-decoration: none; letter-spacing: .01em; }
+.brand .logo { display: block; height: 56px; width: auto; }
 .nav nav { display: flex; gap: clamp(12px, 3vw, 32px); }
 .nav nav a { text-decoration: none; font-size: .85rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
 .nav nav a:hover { color: var(--ink); }
